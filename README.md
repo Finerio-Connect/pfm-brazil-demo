@@ -4210,8 +4210,15 @@ This component displays the consent list, consent detail and banks list to start
 
 ## Installation
 
+Download de *_ob-consent-wizard-component.js_* file from *_latest_* folder of [Open Banking SDK Web Components](https://github.com/ob-pfm/open-banking-sdk/blob/master/dist/latest/ob-consent-wizard-component.js)
+
+Refer to this file from your local file system using script tag or import it to your web application.
 ```html
-<script src="https://cdn.finerio.mx/pfm/components/ob-consent-wizard-component.js"></script>
+<script src="/libs/ob-consent-wizard-component.js"></script>
+```
+  
+```javascript
+import './libs/ob-consent-wizard-component';
 ```
 
 ## How to use
@@ -4219,7 +4226,11 @@ This component displays the consent list, consent detail and banks list to start
 Insert the html tag in your web application as follow.
 
 ```html
-<ob-consent-wizard-component banksData consentsData consentSelectedData> </ob-consent-wizard-component>
+<ob-consent-wizard-component 
+	banksData 
+	consentsData 
+	consentSelectedData
+></ob-consent-wizard-component>
 ```
 
 ## Data Properties
@@ -4310,8 +4321,15 @@ This component helps in managing accounts and calculating their balance.
 
 ## Installation
 
+Download de *_ob-accounts-component.js_* file from *_latest_* folder of [Open Banking SDK Web Components](https://github.com/ob-pfm/open-banking-sdk/blob/master/dist/latest/ob-accounts-component.js)
+
+Refer to this file from your local file system using script tag or import it to your web application.
 ```html
-<script src="https://cdn.finerio.mx/pfm/components/ob-accounts-component.js"></script>
+<script src="/libs/ob-accounts-component.js"></script>
+```
+  
+```javascript
+import './libs/ob-accounts-component';
 ```
 
 ## How to use
@@ -4319,7 +4337,10 @@ This component helps in managing accounts and calculating their balance.
 Insert the html tag in your web application as follow.
 
 ```html
-<ob-accounts-component accountsData financialEntitiesData></ob-accounts-component>
+<ob-accounts-component
+	accountsData 
+	financialEntitiesData
+></ob-accounts-component>
 ```
 
 ## Data Properties
@@ -4401,8 +4422,15 @@ This component shows credit accounts information.
 
 ## Installation
 
+Download de *_ob-credit-component.js_* file from *_latest_* folder of [Open Banking SDK Web Components](https://github.com/ob-pfm/open-banking-sdk/blob/master/dist/latest/ob-credit-component.js)
+
+Refer to this file from your local file system using script tag or import it to your web application.
 ```html
-<script src="https://cdn.finerio.mx/pfm/components/ob-credit-component.js"></script>
+<script src="/libs/ob-credit-component.js"></script>
+```
+  
+```javascript
+import './libs/ob-credit-component';
 ```
 
 ## How to use
@@ -4410,7 +4438,10 @@ This component shows credit accounts information.
 Insert the html tag in your web application as follow.
 
 ```html
-<ob-credit-component creditData banksData></ob-credit-component>
+<ob-credit-component
+	creditData
+	banksData
+></ob-credit-component>
 ```
 
 ## Data Properties
@@ -4465,8 +4496,15 @@ This component helps in managing transactions.
 
 ## Installation
 
+Download de *_ob-transactions-component.js_* file from *_latest_* folder of [Open Banking SDK Web Components](https://github.com/ob-pfm/open-banking-sdk/blob/master/dist/latest/ob-transactions-component.js)
+
+Refer to this file from your local file system using script tag or import it to your web application.
 ```html
-<script src="https://cdn.finerio.mx/pfm/components/ob-transactions-component.js"></script>
+<script src="/libs/ob-transactions-component.js"></script>
+```
+  
+```javascript
+import './libs/ob-transactions-component';
 ```
 
 ## How to use
@@ -4474,7 +4512,11 @@ This component helps in managing transactions.
 Insert the html tag in your web application as follow.
 
 ```html
-<ob-transactions-component transactionsData accountsData categoriesData></ob-transactions-component>
+<ob-transactions-component 
+	transactionsData 
+	accountsData 
+	categoriesData
+></ob-transactions-component>
 ```
 
 ## Data Properties
@@ -4589,14 +4631,23 @@ This component helps in managing categories.
 
 ## Installation
 
+Download de *_ob-categories-component.js_* file from *_latest_* folder of [Open Banking SDK Web Components](https://github.com/ob-pfm/open-banking-sdk/blob/master/dist/latest/ob-categories-component.js)
+
+Refer to this file from your local file system using script tag or import it to your web application.
 ```html
-<script src="https://cdn.finerio.mx/pfm/components/ob-categories-component.js"></script>
+<script src="/libs/ob-categories-component.js"></script>
+```
+  
+```javascript
+import './libs/ob-categories-component';
 ```
 
 ## How to use
 
 ```html
-<ob-categories-component categoriesData></ob-categories-component>
+<ob-categories-component 
+	categoriesData
+></ob-categories-component>
 ```
 
 ## Data Properties
@@ -4680,8 +4731,15 @@ This component helps in managing and calculating budgets.
 
 ## Installation
 
+Download de *_ob-budget-component.js_* file from *_latest_* folder of [Open Banking SDK Web Components](https://github.com/ob-pfm/open-banking-sdk/blob/master/dist/latest/ob-budget-component.js)
+
+Refer to this file from your local file system using script tag or import it to your web application.
 ```html
-<script src="https://cdn.finerio.mx/pfm/components/ob-budget-component.js"></script>
+<script src="/libs/ob-budget-component.js"></script>
+```
+  
+```javascript
+import './libs/ob-budget-component';
 ```
 
 ## How to use
@@ -4689,7 +4747,10 @@ This component helps in managing and calculating budgets.
 Insert the html tag in your web application as follow.
 
 ```html
-<ob-budget-component budgetData categoriesData></ob-budget-component>
+<ob-budget-component 
+	budgetData 
+	categoriesData
+></ob-budget-component>
 ```
 
 ## Data Properties
@@ -4759,8 +4820,15 @@ This component shows data in graphic charts.
 
 ## Installation
 
+Download de *_ob-summary-component.js_* file from *_latest_* folder of [Open Banking SDK Web Components](https://github.com/ob-pfm/open-banking-sdk/blob/master/dist/latest/ob-summary-component.js)
+
+Refer to this file from your local file system using script tag or import it to your web application.
 ```html
-<script src="https://cdn.finerio.mx/pfm/components/ob-summary-component.js"></script>
+<script src="/libs/ob-summary-component.js"></script>
+```
+  
+```javascript
+import './libs/ob-summary-component';
 ```
 
 ## How to use
@@ -4768,7 +4836,10 @@ This component shows data in graphic charts.
 Insert the html tag in your web application as follow.
 
 ```html
-<ob-summary-component summaryData categoriesData></ob-summary-component>
+<ob-summary-component 
+	summaryData 
+	categoriesData
+></ob-summary-component>
 ```
 
 ## Data Properties

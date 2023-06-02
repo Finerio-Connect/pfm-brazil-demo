@@ -16,6 +16,8 @@ import { IOutletContext } from '../../interfaces';
 
 import { ITransactionFilterEvent } from './interfaces';
 
+import '../../libs/wc/ob-transactions-component';
+
 // Define interface for filter options
 interface TransactionsOptions {
   accounts: IAccount[];
@@ -286,7 +288,7 @@ const TransactionsComponent = () => {
             else componentRef.current.isEmpty = true;
             onSuccess();
             // Show success toast
-            toast.success('Nuevo Movimiento agregado.');
+            toast.success('Novo movimento adicionado.');
             // Hide loading indicator
             componentRef.current.showModalLoading = false;
           });
